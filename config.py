@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "7578285077"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -90,7 +90,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/63faefff3d2261e590a00-9e1cd067bf20e8bb2d.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
